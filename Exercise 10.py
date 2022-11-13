@@ -1,6 +1,6 @@
 #Exercise 10
 #Question 1
-class Elevator:
+"""class Elevator:
     def __init__(self, botton, top):
         self.botton = botton
         self.top = top
@@ -8,7 +8,7 @@ class Elevator:
 
     def floor_up(self):
         if self.current < self.top:
-            print(f"The elevator is moving up from {self.current} to {self.current * 1}")
+            print(f"The elevator is moving up from {self.current} to {self.current + 1}")
             self.current += 1
             return True
 
@@ -26,7 +26,7 @@ class Elevator:
 
     def go_to_floor(self, floor):
         if floor > self.current:
-            for i in range (floor - self.current):
+            for i in range(floor - self.current):
                 if not self.floor_up():
                     break
         elif floor < self.current:
@@ -38,9 +38,9 @@ class Elevator:
             print(f"You are already at this floor: {self.current}")
 
 h = Elevator(1, 5)
-target_floor = int(input("Which floor would you like to go to "))
+target_floor = int(input("Which floor would you like to go to? "))
 h. go_to_floor(target_floor)
-h.go_to_floor(1)
+h.go_to_floor(1)"""
 
 #Question 2
 
@@ -102,7 +102,7 @@ building.run_elevator(3, 2)
 
 #question 3
 
-class Elevator:
+"""class Elevator:
     def __init__(self, bottom, top):
         self.bottom = bottom
         self.top = top
@@ -222,7 +222,7 @@ while not race.race_finished():
         print(f"After {n} hours")
         race.print_status()
 print(f"The final result after {n} hours is: ")
-race.print_status()
+race.print_status()"""
 
 
 

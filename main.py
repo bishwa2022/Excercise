@@ -143,7 +143,7 @@ while maxTravelledDistance < 10000:
 raceResult = []
 for i in range(10):
     raceResult.append(carList[i].carStatus)
-print(tabulate(raceResult, headers="keys"))
+print(tabulate(raceResult, headers="keys"))"""
 
 
 
@@ -151,14 +151,5 @@ print(tabulate(raceResult, headers="keys"))
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+def py():
+    pass
