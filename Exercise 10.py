@@ -1,6 +1,6 @@
 #Exercise 10
 #Question 1
-"""class Elevator:
+class Elevator:
     def __init__(self, botton, top):
         self.botton = botton
         self.top = top
@@ -40,7 +40,7 @@
 h = Elevator(1, 5)
 target_floor = int(input("Which floor would you like to go to? "))
 h. go_to_floor(target_floor)
-h.go_to_floor(1)"""
+h.go_to_floor(1)
 
 #Question 2
 

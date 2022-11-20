@@ -3,7 +3,7 @@
 from tabulate import tabulate
 class car:
     def __init__(self, regnumb, maxspd):
-        self.regNum = regnumb
+        self.regnum = regnumb
         self.maxspd = maxspd
         self.curSpeed = 0
         self.travelledDistance = 0
@@ -11,7 +11,7 @@ class car:
 
     def info(self):
         self.carStatus = {
-            "Registration Number": self.regNum,
+            "Registration Number": self.regnum,
             "Maximum speed": self.maxspd,
             "Current speed": self.curSpeed,
             "Travelled Distance": self.travelledDistance
